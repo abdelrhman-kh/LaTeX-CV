@@ -16,7 +16,7 @@
 \input{glyphtounicode}
 
 % Uncomment the desired font
-% \usepackage[sfdefault]{FiraSans}
+\usepackage[sfdefault]{FiraSans}
 % \usepackage[sfdefault]{roboto}
 % \usepackage[sfdefault]{noto-sans}
 % \usepackage[default]{sourcesanspro}
@@ -59,41 +59,41 @@
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+    \begin{tabularx}{\textwidth}{X r}
+      \textbf{#1} & \textit{\small #2} \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabularx}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabularx}{\textwidth}{X r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabularx}\vspace{-7pt}
 }
 
 \newcommand{\resumeEducationHeading}[6]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabularx}{\textwidth}{X r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
       \textit{\small#5} & \textit{\small #6} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabularx}\vspace{-5pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabularx}{\textwidth}{X r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabularx}\vspace{-7pt}
 }
 
 \newcommand{\resumeOrganizationHeading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabularx}{\textwidth}{X r}
       \textbf{#1} & \textit{\small #2} \\
       \textit{\small#3}
-    \end{tabular*}\vspace{-7pt}
+    \end{tabularx}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -114,28 +114,30 @@
     \small
     \faMobile \hspace{.5pt} \href{tel:+201153015763}{+201153015763}
     $|$
-    \faAt \hspace{.5pt} \href{mailto:Abdelrhman.khamis.alex@gmail.com}{Abdelrhman.khamis.alex@gmail.com}
+    \Email \hspace{.5pt} \href{mailto:Abdelrhman.khamis.alex@gmail.com}{Abdelrhman.khamis.alex@gmail.com}
     $|$
     \faLinkedinSquare \hspace{.5pt} \href{https://linkedin.com/in/abdelrhman-khamis}{LinkedIn}
     $|$
-    \faMapMarker \hspace{.5pt} Alexandria, Egypt
+    \faGithub \hspace{.5pt} \href{https://github.com/abdelrhman-kh}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Alexandria,+Egypt}{Alexandria, Egypt}
 \end{center}
 
 %----------- SUMMARY -----------
-\section {\textbf{Summary}}
+\section*{\textbf{Summary}}
 \resumeSubHeadingListStart
 \item {
-Experienced DevOps Engineer with over four years of expertise in enhancing software development processes and system operations. Proficient with tools such as Git, Docker, Kubernetes, and cloud platforms like AWS. Skilled in CI/CD pipeline implementation, infrastructure automation, and Linux environment security. Strong problem-solving abilities and a collaborative approach to delivering high-quality software solutions.
+Experienced DevOps Engineer with over four years of expertise in enhancing software development processes and system operations. Proficient with tools such as Git, Docker, Kubernetes, and cloud platforms like AWS, Azure, and Oracle Cloud. Skilled in CI/CD pipeline implementation, and Linux environment security. Strong problem-solving abilities and a collaborative approach to delivering high-quality software solutions.
 }
 \resumeSubHeadingListEnd
 
 %----------- EXPERIENCE -----------
-\section{\textbf{Experience}}
+\section*{\textbf{Experience}}
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{DevOps Engineer}{Nov 2023 - Present}
 {Meem Company}{Alexandria, Egypt}
+{\textbf{DevOps Engineer}}{Nov 2023 - Present}
 \resumeItemListStart
 \resumeItem{Implemented CI/CD pipelines, reducing deployment times by 30\%.}
 \resumeItem{Automated infrastructure deployment, cutting manual errors by 50\%.}
@@ -143,62 +145,58 @@ Experienced DevOps Engineer with over four years of expertise in enhancing softw
 \resumeItemListEnd
 
 \resumeSubheading
-{DevOps Engineer}{Oct 2022 - Nov 2023}
 {AHBS Company}{Alexandria, Egypt}
+{\textbf{DevOps Engineer}}{Oct 2022 - Nov 2023}
 \resumeItemListStart
 \resumeItem{Optimized CI/CD pipelines, boosting team productivity by 20\%.}
 \resumeItem{Improved scalability with Docker and Kubernetes.}
 \resumeItem{Developed monitoring solutions, reducing downtime by 15\%.}
 \resumeItemListEnd
 
+% Main heading for the company with multiple roles
 \resumeSubheading
-{DevOps Engineer}{Jul 2019 - Sep 2022}
 {Code Zone Company}{Alexandria, Egypt}
+{}{}
+\vspace{-33pt} % Remove extra space
+% First job role
+\resumeSubSubheading{\textbf{DevOps Engineer}}{Jan 2021 - Sep 2022}
 \resumeItemListStart
 \resumeItem{Enhanced CI/CD processes, cutting build times by 25\%.}
 \resumeItem{Deployed Docker and Kubernetes applications, optimizing resources by 30\%.}
 \resumeItem{Developed infrastructure and monitoring tools, enhancing system stability.}
 \resumeItemListEnd
 
+% Second job role
+\resumeSubSubheading{\textbf{Junior DevOps Engineer}}{Jul 2019 - Dec 2020}
+\resumeItemListStart
+\resumeItem{Assisted in the development of CI/CD pipelines, contributing to a 20\% improvement in deployment efficiency.}
+\resumeItem{Supported infrastructure automation using Ansible and Terraform.}
+\resumeItem{Participated in containerization efforts using Docker and Kubernetes.}
+\resumeItemListEnd
+
 \resumeSubHeadingListEnd
 
 %----------- SKILLS -----------
-\section{\textbf{Skills}}
+\section*{\textbf{Skills}}
 \resumeSubHeadingListStart
 \item{
-\textbf{Virtualization:} vSphere
-}
-\item{
-\textbf{Monitoring:} ELK Stack, Zabbix, Prometheus, Loki, Grafana
-}
-\item{
-\textbf{Microservices:} Kubernetes, Docker, Docker-Compose, Docker-Swarm
-}
-\item{
-\textbf{Operating Systems:} Linux, Windows, UNIX
-}
-\item{
-\textbf{Scripting:} PowerShell, Bash
-}
-\item{
-\textbf{Databases:} MSSQL, PostgreSQL, MySQL, MariaDB, MongoDB
-}
-\item{
-\textbf{SDLC Tools:} TFS, Azure DevOps, Jenkins, GitHub, Octopus, Git
-}
-\item{
-\textbf{IaaC Tools:} Terraform, Ansible, Helm, ArgoCD
+\textbf{Technical Proficiency:} vSphere, ELK Stack, Zabbix, Prometheus, Loki, Grafana, Kubernetes, Docker, Docker-Compose, Docker-Swarm, PowerShell, Bash, MSSQL, PostgreSQL, MySQL, MariaDB, MongoDB, TFS, Azure DevOps, Jenkins, GitHub, Octopus, Git, Helm, ArgoCD, RabbitMQ
 }
 \item{
 \textbf{Cloud Providers:} AWS, Azure, DigitalOcean, Oracle Cloud, Zain Cloud
 }
-\item{
-\textbf{Message Queuing:} RabbitMQ
-}
 \resumeSubHeadingListEnd
 
 %----------- EDUCATION -----------
-\section{Education}
+\section*{\textbf{Education}}
+\resumeSubHeadingListStart
+\resumeEducationHeading
+{Bachelor of Business/Commerce, General}{Nov 2023 - 2027}
+{Damanhour University}{Damanhour, Egypt}{}{}
+\resumeSubHeadingListEnd
+
+%----------- EDUCATION -----------
+\section*{\textbf{Education}}
 \resumeSubHeadingListStart
 \resumeEducationHeading
 {Bachelor of Business/Commerce, General}{Nov 2023 - 2027}
