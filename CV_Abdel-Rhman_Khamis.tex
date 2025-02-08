@@ -106,6 +106,11 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+% New command to add projects under Experience
+\newcommand{\resumeProject}[3]{
+    \item[$\bullet$] \textbf{\href{#2}{#1}}: \small #3 \par
+}
+
 % Resume starts here
 \begin{document}
 
@@ -113,19 +118,19 @@
 \begin{center}
     \textbf{\Huge \scshape Abdel-Rhman Khamis} \\ \vspace{.5pt}
     \small
-    \faPhone \hspace{.5pt} \faWhatsapp \hspace{.5pt} \href{https://wa.me/+201153015763}{+201153015763}
+    \faPhone \hspace{.5pt} \faWhatsapp \hspace{.5pt} \href{https://wa.me/+201153015763}{\textcolor{blue}{+201153015763}}
     $|$
-    \faCertificate \hspace{.5pt} \href{https://www.credly.com/users/abdelrhman-khamis}{Certifications}
+    \faCertificate \hspace{.5pt} \href{https://www.credly.com/users/abdelrhman-khamis}{\textcolor{blue}{Certifications}}
     $|$
-    \Email \hspace{.5pt} \href{mailto:Abdelrhman.khamis.alex@gmail.com}{Abdelrhman.khamis.alex@gmail.com}
+    \Email \hspace{.5pt} \href{mailto:Abdelrhman.khamis.alex@gmail.com}{\textcolor{blue}{Abdelrhman.khamis.alex@gmail.com}}
     $|$
-    \faLinkedinSquare \hspace{.5pt} \href{https://linkedin.com/in/abdelrhman-khamis}{LinkedIn}
+    \faLinkedinSquare \hspace{.5pt} \href{https://linkedin.com/in/abdelrhman-khamis}{\textcolor{blue}{LinkedIn}}
     $|$
-    \faGithub \hspace{.5pt} \href{https://github.com/abdelrhman-kh}{GitHub}
+    \faGithub \hspace{.5pt} \href{https://github.com/abdelrhman-kh}{\textcolor{blue}{GitHub}}
     $|$
-    \Mundus \hspace{.5pt} \href{https://abdelrhman.khamis.work}{Portfolio}
+    \Mundus \hspace{.5pt} \href{https://abdelrhman.khamis.work}{\textcolor{blue}{Portfolio}}
     $|$
-    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Alexandria,+Egypt}{Egypt}
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Alexandria,+Egypt}{\textcolor{blue}{Egypt}}
 \end{center}
 \vspace{-20pt}
 %----------- SUMMARY -----------
@@ -144,7 +149,7 @@
 \vspace{-5pt}
 
 \resumeSubheading
-{Meem Development}{Alexandria, Egypt}
+{\textcolor{blue}{Meem Development}}{Alexandria, Egypt}
 {\textbf{DevOps Engineer}}{Nov 2023 - Present}
 {https://www.meemdev.com}
 \resumeItemListStart
@@ -153,9 +158,18 @@
 \resumeItem{Collaborated with high-profile clients, including the Saudi Government, resulting in a 30\% increase in system efficiency.}
 \resumeItemListEnd
 
+\vspace{0pt}
+\hspace{10pt}
+\vspace{5pt}
+\textbf{Projects:}
+\resumeItemListStart
+\vspace{-10pt}
+\resumeProject {\textcolor{blue}{Terraform-Azure-PrivateInfra}}{https://github.com/abdelrhman-kh/Terraform-Azure-PrivateInfra}{Provisioned a production-ready Azure infrastructure with Terraform and private networking.}
+\resumeItemListEnd
+
 \vspace{-15pt}
 \resumeSubheading
-{Andalusia Healthcare Business Solutions}{Alexandria, Egypt}
+{\textcolor{blue}{Andalusia Healthcare Business Solutions}}{Alexandria, Egypt}
 {\textbf{DevOps Engineer}}{Oct 2022 - Nov 2023}
 {https://www.ahbs.tech}
 \resumeItemListStart
@@ -164,9 +178,20 @@
 \resumeItem{Supported multiple Scrum teams and Agile processes across various products, improving team productivity by 20\%.}
 \resumeItemListEnd
 
+\vspace{0pt}
+\hspace{10pt}
+\vspace{5pt}
+\textbf{Projects:}
+\resumeItemListStart
+\vspace{-10pt}
+\resumeProject {\textcolor{blue}{KubernetesOnPremise}}{https://github.com/abdelrhman-kh/KubernetesOnPremise}{Automated Kubernetes cluster setup with Flannel, Dashboard, MetalLB, and Metrics Server.}
+\vspace{0pt}
+\resumeProject {\textcolor{blue}{RunSqlScriptProgram}}{https://github.com/abdelrhman-kh/RunSqlScriptProgram}{Developed a .NET MVC 6.0 app for managing MSSQL connection strings and executing MSSQL scripts on selected database instances, enhancing database management efficiency.}
+\resumeItemListEnd
+
 \vspace{-10pt}
 \resumeSubheading
-{Code Zone}{Alexandria, Egypt}
+{\textcolor{blue}{Code Zone}}{Alexandria, Egypt}
 {}{}
 {https://www.codezone-eg.com}
 \vspace{-33pt}
@@ -176,6 +201,18 @@
 \resumeItem{Deployed Docker and Kubernetes on DigitalOcean, automated tasks with Bash and PowerShell scripts, reducing manual errors by 40\%.}
 \resumeItem{Handled AWS Lambda functions, SQL databases, and Windows services for the Egyptian Invoice project using .NET Core 6.0, improving system performance by 15\%.}
 \resumeItemListEnd
+
+\vspace{0pt}
+\hspace{10pt}
+\vspace{5pt}
+\textbf{Projects:}
+\resumeItemListStart
+\vspace{-10pt}
+\resumeProject {\textcolor{blue}{TerraformCreateEC2Instance}}{https://github.com/abdelrhman-kh/terraform-create-ec2-instance}{Created a Terraform project to automate EC2 instance creation and configuration, streamlining AWS infrastructure deployment and reducing setup time by 50\%.}
+\vspace{0pt}
+\resumeProject {\textcolor{blue}{LambdaFunctionNotifiedSNSSubscription}}{https://github.com/abdelrhman-kh/lambda-function-notified-sns-subscription}{Developed an AWS Lambda function to monitor CloudWatch logs of another Lambda function and trigger SNS notifications upon activity, enhancing monitoring and alerting capabilities.}
+\resumeItemListEnd
+
 
 \vspace{-15pt}
 \resumeSubSubheading{\textbf{System Administrator}}{Jul 2019 - Sep 2021}
@@ -205,7 +242,7 @@
 }
 \vspace{-5pt}
 \item{
-\textbf{Monitoring and Logging:} ELK Stack, Zabbix, Prometheus, Loki, Grafana.
+\textbf{Monitoring and Logging:} ELK Stack, Zabbix, Prometheus, Loki, Grafana, DataDog.
 }
 \vspace{-5pt}
 \item{
@@ -223,61 +260,61 @@
 
 \vspace{-20pt}
 %----------- PROJECTS -----------
-\section*{\textbf{Projects}}
+% \section*{\textbf{Projects}}
 
-\vspace{-7pt}
-\resumeSubHeadingListStart
-\resumeProjectHeading
-    {\textbf{KubernetesOnPremise}}
-    {https://github.com/abdelrhman-kh/KubernetesOnPremise}
-\resumeItemListStart
-\resumeItem{Automated on-premises Kubernetes cluster installation, supporting various versions and essential assets like Flannel, Dashboard, MetalLB, and Metrics Server.}
-\resumeItemListEnd
-\resumeSubHeadingListEnd
+% \vspace{-7pt}
+% \resumeSubHeadingListStart
+% \resumeProjectHeading
+%     {\textbf{KubernetesOnPremise}}
+%     {https://github.com/abdelrhman-kh/KubernetesOnPremise}
+% \resumeItemListStart
+% \resumeItem{Automated on-premises Kubernetes cluster installation, supporting various versions and essential assets like Flannel, Dashboard, MetalLB, and Metrics Server.}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
 
-\vspace{-27pt}
+% \vspace{-27pt}
 
-\resumeSubHeadingListStart
-\resumeProjectHeading
-    {\textbf{RunSqlScriptProgram}}
-    {https://github.com/abdelrhman-kh/RunSqlScriptProgram}
-\resumeItemListStart
-\resumeItem{Developed a .NET MVC 6.0 app for managing MSSQL connection strings and executing MSSQL scripts on selected database instances, enhancing database management efficiency.}
-\resumeItemListEnd
-\resumeSubHeadingListEnd
+% \resumeSubHeadingListStart
+% \resumeProjectHeading
+%     {\textbf{RunSqlScriptProgram}}
+%     {https://github.com/abdelrhman-kh/RunSqlScriptProgram}
+% \resumeItemListStart
+% \resumeItem{Developed a .NET MVC 6.0 app for managing MSSQL connection strings and executing MSSQL scripts on selected database instances, enhancing database management efficiency.}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
 
-\vspace{-27pt}
+% \vspace{-27pt}
 
-\resumeSubHeadingListStart
-\resumeProjectHeading
-    {\textbf{TerraformCreateEC2Instance}}
-    {https://github.com/abdelrhman-kh/terraform-create-ec2-instance}
-\resumeItemListStart
-\resumeItem{Created a Terraform project to automate EC2 instance creation and configuration, streamlining AWS infrastructure deployment and reducing setup time by 50\%.}
-\resumeItemListEnd
-\resumeSubHeadingListEnd
+% \resumeSubHeadingListStart
+% \resumeProjectHeading
+%     {\textbf{TerraformCreateEC2Instance}}
+%     {https://github.com/abdelrhman-kh/terraform-create-ec2-instance}
+% \resumeItemListStart
+% \resumeItem{Created a Terraform project to automate EC2 instance creation and configuration, streamlining AWS infrastructure deployment and reducing setup time by 50\%.}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
 
-\vspace{-27pt}
+% \vspace{-27pt}
 
-\resumeSubHeadingListStart
-\resumeProjectHeading
-    {\textbf{LambdaFunctionNotifiedSNSSubscription}}
-    {https://github.com/abdelrhman-kh/lambda-function-notified-sns-subscription}
-\resumeItemListStart
-\resumeItem{Developed an AWS Lambda function to monitor CloudWatch logs of another Lambda function and trigger SNS notifications upon activity, enhancing monitoring and alerting capabilities.}
-\resumeItemListEnd
-\resumeSubHeadingListEnd
+% \resumeSubHeadingListStart
+% \resumeProjectHeading
+%     {\textbf{LambdaFunctionNotifiedSNSSubscription}}
+%     {https://github.com/abdelrhman-kh/lambda-function-notified-sns-subscription}
+% \resumeItemListStart
+% \resumeItem{Developed an AWS Lambda function to monitor CloudWatch logs of another Lambda function and trigger SNS notifications upon activity, enhancing monitoring and alerting capabilities.}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
 
-\vspace{-27pt}
+% \vspace{-27pt}
 
-\resumeSubHeadingListStart
-\resumeProjectHeading
-    {\textbf{Terraform-Azure-PrivateInfra}}
-    {https://github.com/abdelrhman-kh/Terraform-Azure-PrivateInfra}
-\resumeItemListStart
-\resumeItem{This repository contains a Terraform project for provisioning a production-ready Azure infrastructure with App Services, MySQL, Redis, Blob Storage, and an Application Gateway, emphasizing security and scalability through private networking.}
-\resumeItemListEnd
-\resumeSubHeadingListEnd
+% \resumeSubHeadingListStart
+% \resumeProjectHeading
+%     {\textbf{Terraform-Azure-PrivateInfra}}
+%     {https://github.com/abdelrhman-kh/Terraform-Azure-PrivateInfra}
+% \resumeItemListStart
+% \resumeItem{This repository contains a Terraform project for provisioning a production-ready Azure infrastructure with App Services, MySQL, Redis, Blob Storage, and an Application Gateway, emphasizing security and scalability through private networking.}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
 
 \end{document}
 
