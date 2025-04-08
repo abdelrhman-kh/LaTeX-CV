@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1739050005.96371 "c:/Users/Abdel/VS Code/LaTeX-CV/Abdel-Rhman_Khamis_DevOps_Engineer_CV.tex" "Abdel-Rhman_Khamis_DevOps_Engineer_CV.pdf" "Abdel-Rhman_Khamis_DevOps_Engineer_CV" 1739050008.25131 0
-  "Abdel-Rhman_Khamis_DevOps_Engineer_CV.aux" 1739050007 242 a0f08d3dd3a4d62ca271246e50f1fe59 "pdflatex"
-  "Abdel-Rhman_Khamis_DevOps_Engineer_CV.out" 1739050007 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Abdel-Rhman_Khamis_DevOps_Engineer_CV.tex" 1739050001 13145 f4d8b5ce483ea3cd4fcfccf64aac0c06 ""
-  "c:/Users/Abdel/VS Code/LaTeX-CV/Abdel-Rhman_Khamis_DevOps_Engineer_CV.tex" 1739050001 13145 f4d8b5ce483ea3cd4fcfccf64aac0c06 ""
+["pdflatex"] 1744072152.8709 "c:/Users/Abdel/VS Code/LaTeX-CV/Abdel-Rhman_Khamis_DevOps_Engineer_CV.tex" "Abdel-Rhman_Khamis_DevOps_Engineer_CV.pdf" "Abdel-Rhman_Khamis_DevOps_Engineer_CV" 1744072156.32939 0
+  "Abdel-Rhman_Khamis_DevOps_Engineer_CV.aux" 1744072155 242 a0f08d3dd3a4d62ca271246e50f1fe59 "pdflatex"
+  "Abdel-Rhman_Khamis_DevOps_Engineer_CV.out" 1744072155 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Abdel-Rhman_Khamis_DevOps_Engineer_CV.tex" 1744072150 13489 a6803bb6aaa1d07eda072286107e1d75 ""
+  "c:/Users/Abdel/VS Code/LaTeX-CV/Abdel-Rhman_Khamis_DevOps_Engineer_CV.tex" 1744072150 13489 a6803bb6aaa1d07eda072286107e1d75 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1719011180 1687 f004baecce60175c6453d0e3f808cf20 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1719011180 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/sourcesanspro/a_4jropk.enc" 1719018569 3267 177411e539fcc6ace86309ff03b22da6 ""
@@ -135,6 +135,7 @@
   "c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty" 1719019546 7243 e5dac1240636811edb77568b81818372 ""
   "c:/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty" 1719019546 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "c:/texlive/2024/texmf-dist/tex/latex/url/url.sty" 1719020455 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty" 1719020786 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "c:/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1719020908 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1719004751 42000 d4442d41499783a67244425458021966 ""
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1719021152 5528846 91b99e8394d18a4b5d82e39a7eb42706 ""

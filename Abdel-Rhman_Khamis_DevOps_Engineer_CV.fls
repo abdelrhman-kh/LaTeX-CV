@@ -131,6 +131,11 @@ INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
 INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
 INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
 INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftex/glyphtounicode.tex
+INPUT c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/fira/FiraSans.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/fira/FiraSans.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
