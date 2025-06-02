@@ -16,13 +16,8 @@
 \input{glyphtounicode}
 \usepackage[dvipsnames]{xcolor}
 
-% Uncomment the desired font
-\usepackage[sfdefault]{FiraSans}
-\usepackage[sfdefault]{roboto}
-\usepackage[sfdefault]{noto-sans}
+% Font selection
 \usepackage[default]{sourcesanspro}
-\usepackage{CormorantGaramond}
-\usepackage{charter}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -58,7 +53,6 @@
   }
 }
 
-% Modified to include URL for company name
 \newcommand{\resumeSubheading}[5]{
   \vspace{-2pt}\item
     \begin{tabularx}{\textwidth}{X r}
@@ -74,32 +68,6 @@
     \end{tabularx}\vspace{-7pt}
 }
 
-\newcommand{\resumeEducationHeading}[6]{
-  \vspace{-2pt}\item
-    \begin{tabularx}{\textwidth}{X r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-      \textit{\small#5} & \textit{\small #6} \\
-    \end{tabularx}\vspace{-5pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \vspace{-2pt}\item
-    \begin{tabularx}{\textwidth}{X r}
-      \small\href{#2}{\textbf{#1}} & {} \\
-    \end{tabularx}\vspace{-7pt}
-}
-
-\newcommand{\resumeOrganizationHeading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabularx}{\textwidth}{X r}
-      \textbf{#1} & \textit{\small #2} \\
-      \textit{\small#3}
-    \end{tabularx}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
@@ -107,21 +75,14 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-% New command to add projects under Experience
-\newcommand{\resumeProject}[3]{
-    \item[$\bullet$] \textbf{\href{#2}{#1}}: \small #3 \par
-}
-
 % Resume starts here
 \begin{document}
 
 %---------- HEADING ----------
 \begin{center}
-    \textbf{\Huge \scshape Abdel-Rhman Khamis} \\ \vspace{.5pt}
+    \textbf{\Huge \scshape Abdel-Rhman Khamis} \\ \vspace{1pt}
     \small
-    \faPhone \hspace{.5pt} \faWhatsapp \hspace{.5pt} \href{https://wa.me/+201153015763}{\textcolor{NavyBlue}{+201153015763}}
-    $|$
-    \faCertificate \hspace{.5pt} \href{https://www.credly.com/users/abdelrhman-khamis}{\textcolor{NavyBlue}{Certifications}}
+    \faPhone \hspace{.5pt} \href{https://wa.me/+201153015763}{\textcolor{NavyBlue}{+201153015763}}
     $|$
     \Email \hspace{.5pt} \href{mailto:Abdelrhman.khamis.alex@gmail.com}{\textcolor{NavyBlue}{Abdelrhman.khamis.alex@gmail.com}}
     $|$
@@ -130,216 +91,108 @@
     \faGithub \hspace{.5pt} \href{https://github.com/abdelrhman-kh}{\textcolor{NavyBlue}{GitHub}}
     $|$
     \Mundus \hspace{.5pt} \href{https://abdelrhman.khamis.work}{\textcolor{NavyBlue}{Portfolio}}
+    \\
+    \faCertificate \hspace{.5pt} \href{https://www.credly.com/users/abdelrhman-khamis}{\textcolor{NavyBlue}{Certifications}}
     $|$
-    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Alexandria,+Egypt}{\textcolor{NavyBlue}{Egypt}}
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Alexandria,+Egypt}{\textcolor{NavyBlue}{Alexandria, Egypt}}
 \end{center}
-\vspace{-20pt}
-%----------- SUMMARY -----------
-\section*{\textbf{Summary}}
+
+%----------- PROFESSIONAL SUMMARY -----------
+\vspace{-18pt}
+\section{\textbf{Professional Summary}}
 \resumeSubHeadingListStart
 \item {
-  DevOps engineer with over 3 years of experience in development and operations, and 2.5 years as a System Administrator. Good with Git, Docker, Kubernetes, and cloud platforms like AWS, Azure, and Oracle Cloud. Skilled in CI/CD and Linux security. Enjoys solving problems and working with others.
+  Senior DevOps Engineer with 4+ years of expertise in cloud infrastructure, automation, and DevSecOps practices. Proven track record of architecting secure, scalable solutions for government and enterprise clients, achieving 99.9\% uptime and 40\% deployment efficiency improvements.
 }
 \resumeSubHeadingListEnd
 
-\vspace{-20pt}
-%----------- EXPERIENCE -----------
-\section*{\textbf{Experience}}
+%----------- CORE COMPETENCIES -----------
+\vspace{-18pt}
+\section{\textbf{Core Competencies}}
 \resumeSubHeadingListStart
-
+\item{
+\textbf{DevOps \& Cloud:} Docker, Kubernetes, Terraform, Helm, Jenkins, Azure DevOps, GitHub Actions, GitLab CI, ArgoCD, AWS, Azure, GCP, Oracle Cloud
+}
 \vspace{-5pt}
+\item{
+\textbf{Security \& Monitoring:} Zero-Trust, DevSecOps, GitOps, ELK Stack, Prometheus, Grafana, DataDog, Zabbix
+}
+\vspace{-5pt}
+\item{
+\textbf{Data \& Scripting:} MSSQL, PostgreSQL, MySQL, MongoDB, PowerShell, Bash, Python, RabbitMQ
+}
+\resumeSubHeadingListEnd
+
+%----------- PROFESSIONAL EXPERIENCE -----------
+\vspace{-18pt}
+\section{\textbf{Professional Experience}}
+\resumeSubHeadingListStart
 
 \resumeSubheading
 {\textcolor{NavyBlue}{BlackStone eIT}}{Abu Dhabi, UAE}
 {\textbf{Senior DevOps Engineer}}{Feb 2025 - Present}
 {https://www.blackstoneeit.com}
 \resumeItemListStart
-\resumeItem{Collaborated with high-profile clients, including the United Arab Emirates Government, resulting in a 25\% increase in system efficiency.}
+\resumeItem{Architect secure, large-scale Azure environments for government clients, implementing zero-trust principles for 50,000+ users}
+\resumeItem{Collaborate with UAE Government stakeholders, delivering solutions that improved system efficiency by 25\% with 99.9\% uptime}
+\resumeItem{\textbf{Key Project:} \href{https://www.iskan.abudhabi/en}{\textcolor{NavyBlue}{Abu Dhabi Housing Authority}} - Government housing platform}
 \resumeItemListEnd
 
-\vspace{-3pt}
-\hspace{10pt}
-\vspace{2pt}
-\textbf{Projects:}
-\resumeItemListStart
-\vspace{-10pt}
-\resumeProject {\textcolor{NavyBlue}{Abu Dhabi Housing Authority}}{https://dub.ai/en/omp/}{Used DevSecOps with Kubernetes for secure and automated deployments.}
-\vspace{0pt}
-\resumeItemListEnd
-
-\vspace{-15pt}
+\vspace{-8pt}
 
 \resumeSubheading
 {\textcolor{NavyBlue}{Meem Development}}{Alexandria, Egypt}
-{\textbf{DevOps Engineer}}{Nov 2023 - March 2025}
+{\textbf{DevOps Engineer}}{Nov 2023 - Mar 2025}
 {https://www.meemdev.com}
 \resumeItemListStart
-\resumeItem{Implemented CI/CD pipelines using GitHub, Jenkins, and Azure DevOps.}
-\resumeItem{Engineered scalable ERP systems on AWS and Oracle Cloud, integrating DevSecOps and GitOps.}
-\resumeItem{Collaborated with high-profile clients, including the Saudi Government, resulting in a 30\% increase in system efficiency.}
+\resumeItem{Engineered CI/CD pipelines using GitHub Actions, Jenkins, and Azure DevOps, reducing deployment time by 40\%}
+\resumeItem{Built scalable ERP systems on AWS and Oracle Cloud with DevSecOps practices, serving 3+ government projects with 99.9\% availability}
+\resumeItem{\textbf{Key Projects:} \href{https://dub.ai/en/omp/}{\textcolor{NavyBlue}{Dubai Future Foundation}}, \href{https://mshfakwt.com/}{\textcolor{NavyBlue}{Mshfa Healthcare}}, \href{https://sea.sa/}{\textcolor{NavyBlue}{Saudi Esports}}, \href{https://github.com/abdelrhman-kh/Terraform-Azure-PrivateInfra}{\textcolor{NavyBlue}{Azure Infrastructure}}}
 \resumeItemListEnd
 
-\vspace{-3pt}
-\hspace{10pt}
-\vspace{2pt}
-\textbf{Projects:}
-\resumeItemListStart
-\vspace{-10pt}
-\resumeProject {\textcolor{NavyBlue}{Dubai Future Foundation - One Million Prompts}}{https://dub.ai/en/omp/}{Used DevSecOps and GitOps with Kubernetes for secure and automated deployments. Applied blue-green deployment for smooth updates and auto-scaling for better performance. Managed infrastructure with Terraform to speed up disaster recovery (DR) and improve security, monitoring, and reliability.}
-\vspace{-2pt}
-\resumeProject {\textcolor{NavyBlue}{Mshfa - SaaS Healthcare Platform}}{https://mshfakwt.com/}{Integrated DevSecOps and GitOps with Kubernetes to automate and secure deployments. Improved system reliability, security, and monitoring, ensuring a stable and efficient healthcare platform.}
-\vspace{-2pt}
-\resumeProject {\textcolor{NavyBlue}{General Entertainment Authority - Saudi Esports Federation
- Academy}}{https://sea.sa/}{Implemented DevSecOps and GitOps with Kubernetes for secure and automated deployments. Used blue-green deployment for zero-downtime releases and auto-scaling to handle traffic changes. Improved security, monitoring, and system reliability for esports operations.}
-\vspace{-2pt}
-\resumeProject {\textcolor{NavyBlue}{Terraform-Azure-PrivateInfra}}{https://github.com/abdelrhman-kh/Terraform-Azure-PrivateInfra}{Provisioned a production-ready Azure infrastructure with Terraform and private networking.}
-\resumeItemListEnd
+\vspace{-8pt}
 
-\vspace{-15pt}
 \resumeSubheading
 {\textcolor{NavyBlue}{Andalusia Healthcare Business Solutions}}{Alexandria, Egypt}
 {\textbf{DevOps Engineer}}{Oct 2022 - Nov 2023}
 {https://www.ahbs.tech}
 \resumeItemListStart
-\resumeItem{Managed TFS Server for CI/CD, including blue-green and canary deployments.}
-\resumeItem{Developed a horizontally scalable ERP system on AWS for a monolithic architecture, reducing deployment time by 25\%.}
-\resumeItem{Supported multiple Scrum teams and Agile processes across various products, improving team productivity by 20\%.}
+\resumeItem{Managed TFS Server for enterprise CI/CD with blue-green deployments, reducing deployment time by 25\%}
+\resumeItem{Developed scalable ERP architecture on AWS, supporting multiple Scrum teams and improving productivity by 20\%}
+\resumeItem{\textbf{Key Projects:} \href{https://github.com/abdelrhman-kh/KubernetesOnPremise}{\textcolor{NavyBlue}{Kubernetes On-Premise}}, \href{https://github.com/abdelrhman-kh/RunSqlScriptProgram}{\textcolor{NavyBlue}{SQL Management Tool}}}
 \resumeItemListEnd
 
-\vspace{-3pt}
-\hspace{10pt}
-\vspace{2pt}
-\textbf{Projects:}
-\resumeItemListStart
-\vspace{-10pt}
-\resumeProject {\textcolor{NavyBlue}{KubernetesOnPremise}}{https://github.com/abdelrhman-kh/KubernetesOnPremise}{Automated Kubernetes cluster setup with Flannel, Dashboard, MetalLB, and Metrics Server.}
-\vspace{-2pt}
-\resumeProject {\textcolor{NavyBlue}{RunSqlScriptProgram}}{https://github.com/abdelrhman-kh/RunSqlScriptProgram}{Developed a .NET MVC 6.0 app for managing MSSQL connection strings and executing MSSQL scripts on selected database instances, enhancing database management efficiency.}
-\resumeItemListEnd
+\vspace{-8pt}
 
-\vspace{-15pt}
 \resumeSubheading
 {\textcolor{NavyBlue}{Code Zone}}{Alexandria, Egypt}
-{}{}
+{\textbf{DevOps Engineer | System Administrator}}{Jul 2019 - Sep 2022}
 {https://www.codezone-eg.com}
-\vspace{-33pt}
-\resumeSubSubheading{\textbf{DevOps Engineer}}{Sep 2021 - Sep 2022}
 \resumeItemListStart
-\resumeItem{Managed Azure DevOps for CI/CD with safe deployment methods.
-Used Docker and Kubernetes on DigitalOcean; automated tasks with scripts to cut down mistakes.
-Worked on AWS Lambda, SQL, and Windows services using .NET Core 6.0 to make the system faster.}
-\resumeItemListEnd
-
-\vspace{-3pt}
-\hspace{10pt}
-\vspace{2pt}
-\textbf{Projects:}
-\resumeItemListStart
-\vspace{-10pt}
-\resumeProject {\textcolor{NavyBlue}{TerraformCreateEC2Instance}}{https://github.com/abdelrhman-kh/terraform-create-ec2-instance}{Created a Terraform project to automate EC2 instance creation and configuration, streamlining AWS infrastructure deployment and reducing setup time by 50\%.}
-\vspace{-2pt}
-\resumeProject {\textcolor{NavyBlue}{LambdaFunctionNotifiedSNSSubscription}}{https://github.com/abdelrhman-kh/lambda-function-notified-sns-subscription}{Developed an AWS Lambda function to monitor CloudWatch logs of another Lambda function and trigger SNS notifications upon activity, enhancing monitoring and alerting capabilities.}
-\resumeItemListEnd
-
-\vspace{-20pt}
-\resumeSubSubheading{\textbf{System Administrator}}{Jul 2019 - Sep 2021}
-\resumeItemListStart
-\resumeItem{Improved network, VoIP, and email servers to work better.
-Set up and managed ERP, systems, and security.}
+\resumeItem{Managed Azure DevOps for CI/CD with containerized deployments, automated infrastructure provisioning with 50\% setup time reduction}
+\resumeItem{Optimized network infrastructure, VoIP systems, and email servers; managed ERP systems and security protocols}
+\resumeItem{\textbf{Key Projects:} \href{https://github.com/abdelrhman-kh/terraform-create-ec2-instance}{\textcolor{NavyBlue}{Terraform EC2 Automation}}, \href{https://github.com/abdelrhman-kh/lambda-function-notified-sns-subscription}{\textcolor{NavyBlue}{Lambda SNS Monitoring}}}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
+%----------- KEY ACHIEVEMENTS -----------
 \vspace{-15pt}
-%----------- SKILLS -----------
-\section*{\textbf{Skills}}
+\section{\textbf{Key Achievements}}
 \resumeSubHeadingListStart
 \item{
-\textbf{DevOps Stack:} Git, Jenkins, Azure DevOps, GitHub, Octopus Deploy, Helm, ArgoCD, RabbitMQ, PowerShell, Bash, Docker (Compose, Swarm), Kubernetes.
+\textbf{Government Expertise:} Delivered infrastructure solutions for UAE, Saudi, and Egyptian government entities with 99.9\% uptime
 }
 \vspace{-5pt}
 \item{
-\textbf{Monitoring and Logging:} ELK Stack, Zabbix, Prometheus, Loki, Grafana, DataDog.
+\textbf{Performance Impact:} Achieved 40\% deployment time reduction, 50\% setup time savings, and 25-30\% efficiency improvements
 }
 \vspace{-5pt}
 \item{
-\textbf{Database Administration:} MSSQL, PostgreSQL, MySQL, MariaDB, MongoDB.
-} 
-\vspace{-5pt}
-\item{
-\textbf{Cloud Providers:} AWS, Azure, GCP, DigitalOcean, Oracle Cloud, Zain Cloud.
+\textbf{Enterprise Scale:} Architected zero-trust infrastructure supporting 50,000+ users with government compliance standards
 }
 \resumeSubHeadingListEnd
 
 \vspace{-20pt}
-%----------- PROJECTS -----------
-% \section*{\textbf{Projects}}
-
-% \vspace{-7pt}
-% \resumeSubHeadingListStart
-% \resumeProjectHeading
-%     {\textbf{KubernetesOnPremise}}
-%     {https://github.com/abdelrhman-kh/KubernetesOnPremise}
-% \resumeItemListStart
-% \resumeItem{Automated on-premises Kubernetes cluster installation, supporting various versions and essential assets like Flannel, Dashboard, MetalLB, and Metrics Server.}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
-
-% \vspace{-27pt}
-
-% \resumeSubHeadingListStart
-% \resumeProjectHeading
-%     {\textbf{RunSqlScriptProgram}}
-%     {https://github.com/abdelrhman-kh/RunSqlScriptProgram}
-% \resumeItemListStart
-% \resumeItem{Developed a .NET MVC 6.0 app for managing MSSQL connection strings and executing MSSQL scripts on selected database instances, enhancing database management efficiency.}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
-
-% \vspace{-27pt}
-
-% \resumeSubHeadingListStart
-% \resumeProjectHeading
-%     {\textbf{TerraformCreateEC2Instance}}
-%     {https://github.com/abdelrhman-kh/terraform-create-ec2-instance}
-% \resumeItemListStart
-% \resumeItem{Created a Terraform project to automate EC2 instance creation and configuration, streamlining AWS infrastructure deployment and reducing setup time by 50\%.}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
-
-% \vspace{-27pt}
-
-% \resumeSubHeadingListStart
-% \resumeProjectHeading
-%     {\textbf{LambdaFunctionNotifiedSNSSubscription}}
-%     {https://github.com/abdelrhman-kh/lambda-function-notified-sns-subscription}
-% \resumeItemListStart
-% \resumeItem{Developed an AWS Lambda function to monitor CloudWatch logs of another Lambda function and trigger SNS notifications upon activity, enhancing monitoring and alerting capabilities.}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
-
-% \vspace{-27pt}
-
-% \resumeSubHeadingListStart
-% \resumeProjectHeading
-%     {\textbf{Terraform-Azure-PrivateInfra}}
-%     {https://github.com/abdelrhman-kh/Terraform-Azure-PrivateInfra}
-% \resumeItemListStart
-% \resumeItem{This repository contains a Terraform project for provisioning a production-ready Azure infrastructure with App Services, MySQL, Redis, Blob Storage, and an Application Gateway, emphasizing security and scalability through private networking.}
-% \resumeItemListEnd
-% \resumeSubHeadingListEnd
 
 \end{document}
-
-% \vspace{-5pt}
-
-% % ----------- EDUCATION -----------
-% \section*{\textbf{Education}}
-
-% \resumeSubHeadingListStart
-% \resumeEducationHeading
-% {Bachelor of Business/Commerce, General}{Nov 2023 - 2027}
-% {Damanhour University}{Damanhour, Egypt}{}{}
-% \resumeSubHeadingListEnd
-
-
